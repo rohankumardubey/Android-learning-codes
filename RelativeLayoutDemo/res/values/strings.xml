@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, RelativeLayoutDemo!</string>
+    <string name="app_name">RelativeLayoutDemo</string>
+    <string name="pass">Password</string>
+    <string name="passcriteria">Password Criteria</string>
+    <string name="risk">Use at your own risk</string>
+</resources>

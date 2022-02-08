@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TableLayoutDemo!</string>
+    <string name="app_name">TableLayoutDemo</string>
+    <string name="first">First Name</string>
+    <string name="last">Last Name</string>
+    <string name="full">Full Name :</string>
+    <string name="girish">Girish</string>
+    <string name="kumar">Kumar</string>
+    <string name="shakya">Shakya</string>
+</resources>

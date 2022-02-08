@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:id="@+id/userNameLbl"
+     android:layout_height="wrap_content"
+	android:text="Username: "
+	android:layout_alignParentTop="true" android:layout_width="wrap_content"/>
+    
+    <EditText android:id="@+id/editText1" 
+    android:layout_height="wrap_content" 
+    android:text="EditText"
+     android:layout_below="@+id/userNameLbl" 
+     android:layout_width="match_parent"></EditText>
+    <TextView android:layout_width="wrap_content"
+     android:id="@+id/textView1" 
+     android:layout_alignParentLeft="true" 
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/editText1" 
+     android:text="@string/pass"></TextView>
+    <EditText android:id="@+id/editText2" 
+    android:layout_alignParentLeft="true" 
+    android:layout_height="wrap_content" 
+    android:text="EditText" android:password="true" 
+    android:layout_below="@+id/textView1" android:layout_width="match_parent"></EditText>
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:layout_below="@+id/editText2" android:text="@string/passcriteria"></TextView>
+    <TextView android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_alignParentLeft="true" android:layout_height="wrap_content" android:text="@string/risk" android:layout_alignParentBottom="true"></TextView>
+</RelativeLayout>
